@@ -205,6 +205,15 @@ td {
     font-weight: 600;
 }
 
+.studi-kasus-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 12px;
+    border: 1px solid #eee;
+}
+
 /* ================= DARK MODE 🌙 ================= */
 body.dark {
     background: #1e1e2f;
@@ -222,6 +231,10 @@ body.dark td { border-bottom: 1px solid #3a3a50; }
 body.dark .box, body.dark .artikel-box h4, body.dark .artikel-box li {
     background: #3a3a50;
     color: #eee;
+}
+
+body.dark .studi-kasus-img {
+    border-color: #3a3a50;
 }
 
 body.dark .artikel-box h3 {
